@@ -4,7 +4,7 @@
   This file is part of the DITA Bootstrap Table plug-in for DITA Open Toolkit.
   See the accompanying LICENSE file for applicable licenses.
 -->
-<plugin id="net.infotexture.dita-bootstrap.table" version="5.3.0">
+<plugin id="net.infotexture.dita-bootstrap.table" version="1.22.4">
   <require plugin="net.infotexture.dita-bootstrap"/>
   <feature
     extension="dita.xsl.html5-bootstrap"
