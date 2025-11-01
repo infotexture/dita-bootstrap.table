@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Git checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Calculate short SHA
         uses: benjlevesque/short-sha@v3.0
@@ -27,7 +27,9 @@ jobs:
           SHA: ${{ env.SHA }}
 
       - name: Build Bootstrap
-        uses: dita-ot/dita-ot-action@master
+        # uses: dita-ot/dita-ot-action@master
+        # Pin build to DITA-OT 4.3 per dita-ot/dita-ot-action#11
+        uses: dita-ot/dita-ot-action@4.3
         with:
           install: |
             apt-get update -q
@@ -44,7 +46,7 @@ jobs:
           project: .github/dita-ot/html.xml
 
       - name: Deploy HTML 🚀
-        uses: JamesIves/github-pages-deploy-action@v4.7.2
+        uses: JamesIves/github-pages-deploy-action@v4.7.3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages # The branch the action should deploy to.
