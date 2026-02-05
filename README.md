@@ -50,7 +50,7 @@ dita --input=path/to/your.ditamap \
 
 ## License
 
-[Apache 2.0](LICENSE) © 2024 Jason Fox
+[Apache 2.0](LICENSE) © 2024-2026 Jason Fox
 
 The generated HTML created by this software includes the following additional software components which are obtained under license:
 
