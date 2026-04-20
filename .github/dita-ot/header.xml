@@ -37,7 +37,7 @@
         <li class="nav-item">
           <a
             class="nav-link"
-            href="https://www.dita-ot.org/plugins#!net.infotexture.dita-bootstrap.table"
+            href="https://www.dita-ot.org/plugins#!org.dita-bootstrap.table"
           >Plugin</a>
         </li>
         <li class="nav-item">

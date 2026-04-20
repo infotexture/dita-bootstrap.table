@@ -40,7 +40,7 @@ jobs:
             fox.jason.extend.css
             https://github.com/infotexture/dita-bootstrap/archive/develop.zip
             https://github.com/dita-bootstrap/dita-bootstrap.table/archive/develop.zip
-            fox.jason.prismjs
+            https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
             fox.jason.favicon
             fox.jason.open-graph
           project: .github/dita-ot/html.xml
