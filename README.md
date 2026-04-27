@@ -35,8 +35,8 @@ See the [DITA-OT documentation](https://www.dita-ot.org/dev/topics/installing-cl
 
 ```console
 dita install fox.jason.extend.css
-dita install dita-bootstrap
-dita install https://github.com/dita-bootstrap/dita-bootstrap.table/archive/develop.zip
+dita install org.dita-bootstrap.html
+dita install org.dita-bootstrap.table
 ```
 
 ## Using
